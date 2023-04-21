@@ -1,0 +1,236 @@
+ .container-fluid{
+        padding: 0;
+      }
+
+      /*fonts*/
+
+      h1,h2,h3,h4,h5{
+        font-family: 'Oswald', sans-serif;
+      }
+      *{
+        font-family: 'Lato', sans-serif;
+      }
+
+      body{
+        margin: 0px;
+
+      }
+      .uni-padding{
+        padding: 0% 12%;
+      }
+
+      /*firstnav*/
+
+      .firstnav{
+       background-image: url("header-complete-banner.jpg");
+       height: 600px;
+       background-size: cover;
+       background-position: center; 
+     } 
+     .firstnav ul li a{
+      color: white;
+      text-decoration: underline !important;
+    }
+
+    /*2nd image*/
+
+    .image-2nd{
+      background-image: url("bg.jpg");
+      height: 600px;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+    }
+    .image-2nd h3{
+      color: #414f6b;
+      margin-top: 50px;
+      float: left;
+    }
+    .image-2nd p{
+      float: left;
+      color: #444444;
+    }
+    .text-bold-new{
+      font-size: 100px;
+      color: #6a7a96;
+      float: left;
+    }
+    .newmarg{
+      margin-top: 50px;
+    }
+
+    /*carousel*/
+
+    .newcaro{
+      overflow: auto;
+      margin: 0px;
+    }
+    .carousel-list{
+      list-style-type: none;
+      padding: 0;
+      display: inline-flex;
+    }
+    .carousel-list li{
+      margin: 0px 20px;
+    }
+    .bg-image{
+      background-image: url("cbg.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    .pad-100{
+      padding: 30px;
+    }
+    .carousel-indicators [data-bs-target] {
+      box-sizing: content-box;
+      flex: 0 1 auto;
+      width: 10px; 
+      height: 10px; 
+      padding: 0;
+      margin-right: 3px;
+      margin-left: 3px;
+      text-indent: -999px;
+      cursor: pointer;
+      background-clip: padding-box;
+      border: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-radius: 100%; 
+    }
+   
+    /*climb*/
+
+    .climb{
+      display: flex;
+      overflow: auto;
+      padding: 10px;
+    }
+    .climb h3{
+      color: #414f6b;
+      float: left;
+      margin-right: 20px;
+      margin-top: 50px;
+      margin-left: 0px;   
+    }
+    .climb p{
+      margin-top: 30px;
+      color: #444444;
+    }
+    .text-bold{
+      font-size: 100px;
+      color: #a0a7b5;
+      float: left;
+    }
+      
+    /*Accordion*/
+
+    .acc-con, .accordionone, .accordion-body,.accordion-new{
+      padding: 0px;
+      margin: 0px;
+      overflow: auto;
+    }
+    .accordion-header button{
+      background-color: #414f6b;
+      color: white;
+      padding-left:170px;
+    }
+
+    /*scheudel*/
+
+    .sch-new{
+      margin-top: 100px;
+    }
+    .new-sch-new{
+      display: inline-flex;
+    }
+    .sch-new h3{
+      color: #414f6b;
+    }
+    .ul-first{
+      padding: 0;
+      color: #444444;
+    }
+    .ul-2nd{
+      padding-left:60px;
+      color: #444444;
+    }
+    .bg-color{
+      background-image: url(photo-tab1.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 600px;
+      justify-content: center;
+      overflow: auto;
+    }
+    .bg-color2{
+      background-image: url(photo-tab2.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 600px;
+      justify-content: center;
+      overflow: auto;
+    }
+
+    /*footer*/
+
+    .footer{
+      background-color: #414f6b;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      overflow: auto;
+    }
+    .footer h5{
+      color: #63769d;
+      display: inline-flex;
+      margin: 0px;  
+    }
+    .footer p{
+      float: right;
+      color: #63769d;
+      margin-top: 20px;
+    }
+       
+
+    @media only screen and (max-width: 1024px){
+
+      /*carousel*/
+
+      .carousel-list{
+        display: inline-block;
+      }
+      .carousel-list li{
+        width: 100%;
+        margin: 10px 0px;
+      }
+
+      /* accordian*/
+
+      .accordion-header button{
+        padding-left: 130px;
+      }
+      .climb p{
+        padding-top: 100px;
+        text-align: center;
+      }
+      .climb h3{
+        padding-top: 65px;
+        margin-top: 0px;
+      }
+      .text-bold{
+        padding-left: 50px;
+      }
+
+      /*footer*/
+
+      .footer{
+        text-align: center;
+      }
+    }
+
+    /*2ndnav*/
+
+    .nav-two ul li a{
+      text-decoration: underline;
+      color: #414f6b;
+    }
